@@ -1,0 +1,71 @@
+\documentclass[10pt]{article}
+
+\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+
+
+\usepackage{amssymb, amsmath, amsfonts}
+\usepackage{outlines}
+\usepackage{fancyhdr}
+\usepackage{lineno}
+\usepackage[colorlinks=true, citecolor=red, urlcolor=blue, pdfstartview=FitH, pdfauthor={Author}]{hyperref}
+
+\pagestyle{fancy}
+\lhead{Outline}
+\rhead{\today}
+\chead{}
+\usepackage{graphicx}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\graphicspath{{../path/to/output/folder/here/}}
+
+\usepackage{enumitem}
+\setlist[enumerate,2]{label=\roman*)}
+\setlist[enumerate,3]{label=\alph*)}
+\setlist[enumerate,4]{label=\Alph*)}
+
+\begin{document}
+%\linenumbers
+\textbf{Title here \footnote{Author}}
+\\
+
+\textsc{\textbf{Abstract}} \\ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a erat ornare, venenatis erat vel, aliquam augue. Integer dignissim et arcu et ullamcorper. Curabitur massa ipsum, sagittis non vulputate at, venenatis in nisi. Maecenas id leo metus. Suspendisse tempus lacinia turpis in pretium. Praesent aliquet sem eros, eget tempus orci ullamcorper ac. Sed egestas nunc eget hendrerit dignissim. Maecenas sed vestibulum tortor. Nulla ex dui, mollis id tincidunt finibus, dignissim id magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris a porta orci. Ut dolor lorem, posuere vel quam quis, auctor varius arcu. Vivamus ut eros lacus. Donec convallis quam nibh, ac fringilla diam pulvinar et. Nullam a aliquam ex.
+
+\begin{outline}[enumerate]
+
+
+
+\1 \textsc{Introduction}
+
+\1 \textsc{Data}
+\2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a erat ornare, venenatis erat vel, aliquam augue. I
+
+\begin{figure}[h]
+ \caption{Sample Plot}
+  \centering
+    \includegraphics[scale=.8]{sample_plot.pdf}
+\end{figure}
+
+
+
+\1 \textsc{Literature Review}
+
+\1 \textsc{Research Questions}
+
+\1  \textsc{Conclusions}
+
+
+\end{outline}
+
+
+\begin{thebibliography}{99}
+
+\bibitem{c1} Smith (2004). Introduction to Good Economics. Journal of Doing Economics, 39(04), 661-676.
+\bibitem{c2} Johnson (2013). Advanced Good Economics. Journal of Doing Advanced Economics, 110(3), 574-595.
+
+
+
+\end{thebibliography}
+
+
+\end{document}
